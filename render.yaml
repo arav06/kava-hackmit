@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: claim-copilot-api
+    runtime: python3
+    plan: free # Can upgrade to paid plans for more resources
+    buildCommand: "cd backend && pip install -r requirements.txt"
+    startCommand: "cd backend && uvicorn main:app --host 0.0.0.0 --port $PORT"
+    healthCheckPath: "/"
+    env:
+      - key: PYTHON_VERSION
+        value: "3.11.0"
+      - key: ENVIRONMENT
+        value: production
+      - key: CLAUDE_API_KEY
+        fromSecret: CLAUDE_API_KEY
+    envVars:
+      - key: PORT
+        generateValue: true
