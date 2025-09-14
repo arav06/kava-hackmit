@@ -1,0 +1,9 @@
+{
+  "claim_id": "WF-1757831024407",
+  "policy_number": "TEST123",
+  "claimant_name": "Test User",
+  "incident_date": "2024-01-15T00:00:00Z",
+  "property_address": "123 Main St, Test City, CA 90210",
+  "estimated_damage": 5000.0,
+  "documents": []
+}

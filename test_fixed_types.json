@@ -1,0 +1,64 @@
+{
+  "claim_packet": {
+    "claim_id": "WF-FIXED-TYPES",
+    "policy_number": "WF-2024-FIXED",
+    "claimant_name": "Test Classification",
+    "incident_date": "2024-09-01T00:00:00",
+    "property_address": "123 Test Street, Test City, CA",
+    "estimated_damage": 50000.0,
+    "documents": [
+    {
+      "id": "doc_001",
+      "filename": "insurance_policy_2024.pdf",
+      "document_type": "policy",
+      "extracted_data": {
+        "policy_number": "WF-2024-FIXED",
+        "coverage_amount": "$500,000"
+      },
+      "confidence_score": 0.95,
+      "file_size": 245678,
+      "upload_timestamp": "2025-09-14T02:45:01.387544"
+    },
+    {
+      "id": "doc_002",
+      "filename": "damage_photo_exterior.jpg",
+      "document_type": "photo",
+      "extracted_data": {
+        "damage_type": "Fire damage to exterior walls",
+        "severity": "Severe structural damage"
+      },
+      "confidence_score": 0.88,
+      "file_size": 1245890,
+      "upload_timestamp": "2025-09-14T02:46:00Z"
+    },
+    {
+      "id": "doc_003",
+      "filename": "contractor_receipt_estimate.pdf",
+      "document_type": "receipt",
+      "extracted_data": {
+        "merchant": "ABC Construction",
+        "total_amount": "$25,000",
+        "date": "2024-09-05"
+      },
+      "confidence_score": 0.92,
+      "file_size": 89456,
+      "upload_timestamp": "2025-09-14T02:47:00Z"
+    },
+    {
+      "id": "doc_004",
+      "filename": "fire_department_incident_report.pdf",
+      "document_type": "damage_report",
+      "extracted_data": {
+        "incident_number": "FD-2024-09-01-1234",
+        "fire_name": "Test Fire",
+        "cause": "Downed power lines"
+      },
+      "confidence_score": 0.97,
+      "file_size": 156789,
+      "upload_timestamp": "2025-09-14T02:48:00Z"
+    }
+  ],
+  "created_at": "2025-09-14T02:45:01.387595"
+  },
+  "max_iterations": 2
+}

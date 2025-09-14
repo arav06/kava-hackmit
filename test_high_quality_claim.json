@@ -1,0 +1,77 @@
+{
+  "claim_packet": {
+    "claim_id": "test_high_quality_001",
+    "policy_number": "PREMIUM-POL-12345",
+    "claimant_name": "Premium Customer",
+    "incident_date": "2024-11-01T00:00:00",
+    "property_address": "123 Premium Street, Napa Valley, CA 94558",
+    "documents": [
+      {
+        "id": "hq_fire_report",
+        "filename": "cal_fire_official_report.pdf",
+        "document_type": "damage_report",
+        "extracted_data": {
+          "document_type": "official_fire_report",
+          "agency": "Cal Fire Department",
+          "incident_details": "Confirmed wildfire damage - Glass Fire 2024",
+          "damage_assessment": "75% structural damage confirmed",
+          "official_determination": "Wildfire causation verified",
+          "evacuation_zone": "Zone 7 - mandatory evacuation issued",
+          "fire_perimeter": "Property within confirmed fire boundary"
+        },
+        "confidence_score": 0.95,
+        "file_size": 500000,
+        "upload_timestamp": "2024-11-05T10:00:00.000Z"
+      },
+      {
+        "id": "hq_photos",
+        "filename": "comprehensive_damage_photos.jpg",
+        "document_type": "photo",
+        "extracted_data": {
+          "damage_type": "severe wildfire damage",
+          "severity": "75% structural loss",
+          "wildfire_evidence": "extensive charring, ash deposits, heat damage patterns",
+          "before_after": "comprehensive photographic documentation",
+          "professional_quality": "high resolution damage assessment photos"
+        },
+        "confidence_score": 0.92,
+        "file_size": 8000000,
+        "upload_timestamp": "2024-11-05T10:00:00.000Z"
+      },
+      {
+        "id": "hq_policy",
+        "filename": "active_insurance_policy.pdf",
+        "document_type": "policy",
+        "extracted_data": {
+          "policy_number": "PREMIUM-POL-12345",
+          "coverage_amount": 750000,
+          "effective_date": "2024-01-01",
+          "wildfire_coverage": "full coverage included",
+          "policy_status": "active and current"
+        },
+        "confidence_score": 0.98,
+        "file_size": 200000,
+        "upload_timestamp": "2024-11-05T10:00:00.000Z"
+      },
+      {
+        "id": "hq_contractor",
+        "filename": "licensed_contractor_estimate.pdf",
+        "document_type": "receipt",
+        "extracted_data": {
+          "merchant": "Elite Fire Restoration (Licensed Contractor)",
+          "total_amount": 180000,
+          "date": "2024-11-03",
+          "items": ["Structural repairs", "Professional restoration", "Code compliance upgrades"],
+          "contractor_license": "CA-LICENSE-123456",
+          "professional_estimate": true
+        },
+        "confidence_score": 0.96,
+        "file_size": 300000,
+        "upload_timestamp": "2024-11-05T10:00:00.000Z"
+      }
+    ],
+    "estimated_damage": 185000.0,
+    "created_at": "2024-11-05T10:00:00.000Z"
+  },
+  "max_iterations": 4
+}

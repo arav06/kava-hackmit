@@ -1,0 +1,27 @@
+{
+  "claim_packet": {
+    "claim_id": "test_claim_001",
+    "policy_number": "POL-WF-12345",
+    "claimant_name": "John Smith",
+    "incident_date": "2024-10-15T00:00:00",
+    "property_address": "1247 Vineyard Ridge Road, Santa Rosa, CA 95404",
+    "documents": [
+      {
+        "id": "900fdbd1-515e-47c1-ad7c-ef8b507257dc",
+        "filename": "fire_department_report.pdf",
+        "document_type": "damage_report",
+        "extracted_data": {
+          "document_type": "fire_report",
+          "merchant_or_agency": "Sonoma County Fire District",
+          "incident_details": "Structure Fire - Wildfire Related"
+        },
+        "confidence_score": 0.78,
+        "file_size": 23143,
+        "upload_timestamp": "2025-09-14T05:22:23.347127"
+      }
+    ],
+    "estimated_damage": 125000.0,
+    "created_at": "2025-09-14T05:22:23.347245"
+  },
+  "max_iterations": 3
+}

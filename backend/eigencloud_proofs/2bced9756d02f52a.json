@@ -1,0 +1,11 @@
+{
+  "claim_hash": "2bced9756d02f52af980d95c049cfdaf61acfdda36813ff559957d3a8839f543",
+  "ecdsa_signature": "MEQCIB291dM/JGk+4QufSEFAwnG8ZHSqWdSOnZyTMZcZELKEAiAcWzI5VO/R2fYRD+9gWxBddeben4d2fkDppqZiaat2kQ==",
+  "eigencloud_attestation": "TEE evaluation completed",
+  "evaluator_address": "EigenCloud TEE",
+  "timestamp": 1757841829,
+  "judge_score": 0.15,
+  "validation_rules_version": "v1.0",
+  "trust_badge": "REVIEW_REQUIRED",
+  "proof_type": "ECDSA_SHA256"
+}

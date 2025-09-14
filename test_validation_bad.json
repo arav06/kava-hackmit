@@ -1,0 +1,13 @@
+{
+  "claim_packet": {
+    "claim_id": "WF-TEST-BAD-CLAIM",
+    "policy_number": "WF-2024-999999",
+    "claimant_name": "Bad Example",
+    "incident_date": "2023-01-01T00:00:00",
+    "property_address": "123 Fake Street",
+    "documents": [],
+    "estimated_damage": 1000000.0,
+    "created_at": "2025-09-14T02:45:01.387595"
+  },
+  "max_iterations": 1
+}

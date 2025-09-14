@@ -1,0 +1,26 @@
+{
+  "claim_packet": {
+    "claim_id": "test_progressive_001",
+    "policy_number": "PROG-TEST-12345",
+    "claimant_name": "Progressive Test User",
+    "incident_date": "2024-10-15T00:00:00",
+    "property_address": "123 Progressive Test Street, CA 90210",
+    "documents": [
+      {
+        "id": "prog_basic_doc",
+        "filename": "basic_fire_report.pdf",
+        "document_type": "damage_report",
+        "extracted_data": {
+          "document_type": "incident_report",
+          "damage_type": "moderate fire damage"
+        },
+        "confidence_score": 0.75,
+        "file_size": 50000,
+        "upload_timestamp": "2025-09-14T05:30:00.000Z"
+      }
+    ],
+    "estimated_damage": 45000.0,
+    "created_at": "2025-09-14T05:30:00.000Z"
+  },
+  "max_iterations": 4
+}

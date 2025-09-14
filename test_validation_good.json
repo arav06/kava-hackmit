@@ -1,0 +1,63 @@
+{
+  "claim_packet": {
+    "claim_id": "WF-TEST-PHOTOS",
+    "policy_number": "WF-2024-789456",
+    "claimant_name": "Sarah Johnson",
+    "incident_date": "2024-08-30T00:00:00",
+    "property_address": "456 Oak Valley Drive, Paradise Valley, CA 95969",
+    "documents": [
+      {
+        "id": "doc_001",
+        "filename": "insurance_policy_2024.pdf",
+        "document_type": "policy",
+        "extracted_data": {
+          "policy_number": "WF-2024-789456",
+          "coverage_amount": "$500,000"
+        },
+        "confidence_score": 0.95,
+        "file_size": 245678,
+        "upload_timestamp": "2025-09-14T02:45:01.387544"
+      },
+      {
+        "id": "doc_002",
+        "filename": "damage_photo1.jpg",
+        "document_type": "photo",
+        "extracted_data": {
+          "damage_type": "Severe fire damage to exterior walls",
+          "severity": "Total destruction of north wall"
+        },
+        "confidence_score": 0.88,
+        "file_size": 1245890,
+        "upload_timestamp": "2025-09-14T02:46:00Z"
+      },
+      {
+        "id": "doc_003",
+        "filename": "damage_photo2.jpg",
+        "document_type": "photo",
+        "extracted_data": {
+          "damage_type": "Complete roof collapse from wildfire",
+          "severity": "Total loss"
+        },
+        "confidence_score": 0.91,
+        "file_size": 985432,
+        "upload_timestamp": "2025-09-14T02:47:00Z"
+      },
+      {
+        "id": "doc_004",
+        "filename": "contractor_receipt.pdf",
+        "document_type": "receipt",
+        "extracted_data": {
+          "merchant": "Paradise Roofing & Construction",
+          "total_amount": "$75000",
+          "date": "2024-08-25"
+        },
+        "confidence_score": 0.93,
+        "file_size": 89456,
+        "upload_timestamp": "2025-09-14T02:48:00Z"
+      }
+    ],
+    "estimated_damage": 75000.0,
+    "created_at": "2025-09-14T02:45:01.387595"
+  },
+  "max_iterations": 2
+}

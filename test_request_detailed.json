@@ -1,0 +1,72 @@
+{
+  "claim_id": "WF-1757831800000",
+  "policy_number": "WF-2024-789456",
+  "claimant_name": "Sarah Johnson",
+  "incident_date": "2024-08-15T00:00:00Z",
+  "property_address": "456 Oak Valley Drive, Paradise Valley, CA 95969",
+  "estimated_damage": 125000.0,
+  "documents": [
+    {
+      "id": "doc_001",
+      "filename": "insurance_policy_2024.pdf",
+      "document_type": "policy",
+      "extracted_data": {
+        "policy_number": "WF-2024-789456",
+        "coverage_amount": "$500,000",
+        "deductible": "$5,000",
+        "effective_date": "2024-01-01",
+        "expiration_date": "2024-12-31",
+        "property_address": "456 Oak Valley Drive, Paradise Valley, CA 95969"
+      },
+      "confidence_score": 0.95,
+      "file_size": 245678,
+      "upload_timestamp": "2025-09-14T02:45:00Z"
+    },
+    {
+      "id": "doc_002", 
+      "filename": "fire_damage_photos_exterior.jpg",
+      "document_type": "photo",
+      "extracted_data": {
+        "damage_type": "Fire damage to exterior walls and roof",
+        "severity": "Severe structural damage",
+        "affected_areas": "North wall, roof shingles, window frames",
+        "image_quality": "High resolution, clear visibility"
+      },
+      "confidence_score": 0.88,
+      "file_size": 1245890,
+      "upload_timestamp": "2025-09-14T02:46:00Z"
+    },
+    {
+      "id": "doc_003",
+      "filename": "contractor_estimate_roofing.pdf", 
+      "document_type": "receipt",
+      "extracted_data": {
+        "merchant": "Paradise Roofing & Construction",
+        "total_amount": "$45,000",
+        "date": "2024-08-20",
+        "items": ["Complete roof replacement", "Fire damage repair", "Structural reinforcement"],
+        "estimate_valid_until": "2024-11-20"
+      },
+      "confidence_score": 0.92,
+      "file_size": 89456,
+      "upload_timestamp": "2025-09-14T02:47:00Z"
+    },
+    {
+      "id": "doc_004",
+      "filename": "cal_fire_incident_report.pdf",
+      "document_type": "damage_report", 
+      "extracted_data": {
+        "incident_number": "CAL-FIRE-2024-08-15-3421",
+        "fire_name": "Oak Valley Fire",
+        "incident_date": "2024-08-15",
+        "cause": "Electrical equipment malfunction",
+        "structures_threatened": 147,
+        "structures_damaged": 23,
+        "acres_burned": 2340
+      },
+      "confidence_score": 0.97,
+      "file_size": 156789,
+      "upload_timestamp": "2025-09-14T02:48:00Z"
+    }
+  ]
+}

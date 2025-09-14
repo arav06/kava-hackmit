@@ -1,0 +1,13 @@
+{
+  "claim_packet": {
+    "claim_id": "WF-FRESH-TEST-123456",
+    "policy_number": "NEW-POLICY-999",
+    "claimant_name": "Fresh Test User",
+    "incident_date": "2024-09-10T00:00:00",
+    "property_address": "999 Fresh Test Street, New City, CA",
+    "documents": [],
+    "estimated_damage": 12345.0,
+    "created_at": "2025-09-14T03:40:59.416058"
+  },
+  "max_iterations": 1
+}

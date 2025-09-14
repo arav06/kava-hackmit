@@ -1,0 +1,9 @@
+{
+  "claim_hash": "b7739ee5eabefdf3db2846f134d50f03d06f6e68286759d9af12e5a0b9879351",
+  "eigencloud_attestation": "TEE evaluation completed",
+  "evaluator_address": "EigenCloud TEE",
+  "timestamp": 1757823204,
+  "judge_score": 0.7300884955752212,
+  "validation_rules_version": "v1.0",
+  "proof_type": "EigenCloud_TEE"
+}

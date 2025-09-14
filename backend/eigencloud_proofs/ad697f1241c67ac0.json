@@ -1,0 +1,11 @@
+{
+  "claim_hash": "ad697f1241c67ac0c8f28215315bb4590f53322685fe446b28f94ba134e885e9",
+  "ecdsa_signature": "MEYCIQDzdvHWzJGjl959oEMzDjr6Hb3pqDgML6e9SKEeoO8BFAIhAMZMuLa8Lwc48p9d/QX3hCh1l0tdBiOYnEnXjAb8dIo9",
+  "eigencloud_attestation": "TEE evaluation completed",
+  "evaluator_address": "EigenCloud TEE",
+  "timestamp": 1757831376,
+  "judge_score": 0.8097345132743362,
+  "validation_rules_version": "v1.0",
+  "trust_badge": "SILVER_TRUST",
+  "proof_type": "ECDSA_SHA256"
+}
