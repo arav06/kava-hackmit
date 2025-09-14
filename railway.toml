@@ -1,0 +1,20 @@
+[build]
+builder = "NIXPACKS"
+
+[deploy]
+healthcheckPath = "/"
+healthcheckTimeout = 30
+restartPolicyType = "ON_FAILURE"
+restartPolicyMaxRetries = 3
+
+[build.env]
+NIXPACKS_PYTHON_VERSION = "3.11"
+
+[env]
+PORT = 8000
+ENVIRONMENT = "production"
+PYTHONUNBUFFERED = "1"
+
+[[services]]
+name = "claim-copilot-api"
+source = "."
